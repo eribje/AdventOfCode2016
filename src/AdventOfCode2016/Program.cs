@@ -16,6 +16,8 @@ namespace AdventOfCode2016
 
             RunTest<string, int>("3", Inputs.InputDay3, Day3.SolvePart1);
             RunTest<string, int>("3", Inputs.InputDay3, Day3.SolvePart2);
+            RunTest<string, int>("4", Inputs.InputDay4, Day4.SolvePart1);
+            RunTest<string, int>("4_2", Inputs.InputDay4, Day4.SolvePart2);
         }
 
         private static void RunTest<T,U>(string dayNumber, T input, Func<T, U> f) where T : class
